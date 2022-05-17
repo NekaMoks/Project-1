@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(129, 34, 218);
+    padding: auto;
+}
+
+form {
+    margin: 2.4rem;
+}
+
+input {
+    font-size: 1.8rem;
+}
+
+input[type=email],
+input[type=password] {
+    width: 360px;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid #cccc;
+    background-color: rgba(230, 224, 224, 0.8);
+}
+
+
+input::placeholder {
+    font-size: 1rem;
+    color: #cccc;
+}
+
+input[type=button] {
+    background-color: rgb(129, 34, 218);
+    color: white;
+    font-size: medium;
+    width: 400px;
+    padding: 12px 16px;
+    display: inline-block;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: left;
+    line-height: 2;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Radio Canada',
+    sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sign_in {
+    text-align: center;
+}
+
+#home_page {
+    text-align: center;
+}
+
+.form {
+    width: 30%;
+    height: 400px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px 0;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+}
